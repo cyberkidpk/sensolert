@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/sensolert/static/css/main.22e5ee85.css",
-    "main.js": "/sensolert/static/js/main.d22c77db.js",
+    "main.js": "/sensolert/static/js/main.7e6b66e2.js",
     "static/js/787.549be6dc.chunk.js": "/sensolert/static/js/787.549be6dc.chunk.js",
     "static/media/sensolert-ux-forweb-bg.png": "/sensolert/static/media/sensolert-ux-forweb-bg.c3bccd0c448836a0b9e1.png",
     "static/media/sensolert-logo-right.png": "/sensolert/static/media/sensolert-logo-right.e866764c6288e228c369.png",
     "index.html": "/sensolert/index.html",
     "main.22e5ee85.css.map": "/sensolert/static/css/main.22e5ee85.css.map",
-    "main.d22c77db.js.map": "/sensolert/static/js/main.d22c77db.js.map",
+    "main.7e6b66e2.js.map": "/sensolert/static/js/main.7e6b66e2.js.map",
     "787.549be6dc.chunk.js.map": "/sensolert/static/js/787.549be6dc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22e5ee85.css",
-    "static/js/main.d22c77db.js"
+    "static/js/main.7e6b66e2.js"
   ]
 }
