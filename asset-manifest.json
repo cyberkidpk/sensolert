@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/cyberkidpk/sensolert/static/css/main.4966f160.css",
-    "main.js": "/cyberkidpk/sensolert/static/js/main.f2f9cc16.js",
+    "main.js": "/cyberkidpk/sensolert/static/js/main.4fecb5d0.js",
     "static/js/787.549be6dc.chunk.js": "/cyberkidpk/sensolert/static/js/787.549be6dc.chunk.js",
     "static/media/sensolert-ux-forweb-bg.png": "/cyberkidpk/sensolert/static/media/sensolert-ux-forweb-bg.c3bccd0c448836a0b9e1.png",
     "static/media/sensolert-logo-right.png": "/cyberkidpk/sensolert/static/media/sensolert-logo-right.e866764c6288e228c369.png",
     "index.html": "/cyberkidpk/sensolert/index.html",
     "main.4966f160.css.map": "/cyberkidpk/sensolert/static/css/main.4966f160.css.map",
-    "main.f2f9cc16.js.map": "/cyberkidpk/sensolert/static/js/main.f2f9cc16.js.map",
+    "main.4fecb5d0.js.map": "/cyberkidpk/sensolert/static/js/main.4fecb5d0.js.map",
     "787.549be6dc.chunk.js.map": "/cyberkidpk/sensolert/static/js/787.549be6dc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4966f160.css",
-    "static/js/main.f2f9cc16.js"
+    "static/js/main.4fecb5d0.js"
   ]
 }
