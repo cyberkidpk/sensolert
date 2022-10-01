@@ -91,7 +91,7 @@ const MonitorPressureWrapperContainer = () => {
                 Utils.randomNumberFromArray(randomNumber);
             console.log(_sensorData);
             if (_sensorData) dispatch(incrementAsync(_sensorData));
-        }, 1000);
+        }, 3000);
     };
     useEffect(() => {
         _setMaxValue(1000);

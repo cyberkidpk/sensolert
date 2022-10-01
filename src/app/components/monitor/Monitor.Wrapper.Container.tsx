@@ -16,7 +16,7 @@ const enum Enum {
     OK = 'okStatus',
 }
 const randomNumber: number[] = [
-    -2, 4, 5, 10, 18, 30, 35, 40, 50, 60, 55.5, 70, 90, 100,
+    -2, 4, 5, 10, 18, 30, 35, 40, 50, 60, 55.5, 70, 90, 100, 500, 400, 1000
 ];
 const breakpoints: number[] = [24, 30, 35];
 
@@ -66,7 +66,7 @@ const MonitorWrapperContainer = () => {
         [meterObj],
     );
 
-    const _setMaxValue = (maxValue: number = 100) => {
+    const _setMaxValue = (maxValue: number = 1000) => {
         if (meterObj) {
             let _meterObjLocal = meterObj;
             // meterObj.setOptions(opts);
@@ -78,7 +78,7 @@ const MonitorWrapperContainer = () => {
     };
     const _setMeter = (count: number) => {
         if (meterObj) {
-            meterObj.maxValue = 100; // set max gauge value
+            meterObj.maxValue = 1000; // set max gauge value
             meterObj.setMinValue(10);
             meterObj.set(count); // set actual value
         }
@@ -90,10 +90,10 @@ const MonitorWrapperContainer = () => {
                 Utils.randomNumberFromArray(randomNumber);
             console.log(_sensorData);
             if (_sensorData) dispatch(incrementAsync(_sensorData));
-        }, 5000);
+        }, 2000);
     };
     useEffect(() => {
-        _setMaxValue(100);
+        _setMaxValue(1000);
         _getDataFromTheStream();
     }, []);
 

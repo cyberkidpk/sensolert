@@ -30,11 +30,11 @@ var opts = {
     staticZones: [
         { strokeStyle: '#5FDA46', min: -2, max: 24 }, // GREEN
         { strokeStyle: '#E2AC00', min: 24, max: 30 }, // Yellow
-        { strokeStyle: '#ff0000', min: 30, max: 100 }, // RED
+        { strokeStyle: '#ff0000', min: 30, max: 1000 }, // RED
     ],
     staticLabels: {
         font: '8px sans-serif', // Specifies font
-        labels: [0, 24.4, 30, 50, 70, 100], // Print labels at these values
+        labels: [0, 24.4, 30, 50, 70, 100, 600, 1000], // Print labels at these values
         color: '#EFEFEF', // Optional: Label text color
         fractionDigits: 0, // Optional: Numerical precision. 0=round off.
     },
@@ -71,11 +71,11 @@ const MeterComponent = (props: any) => {
                     staticZones: [
                         { strokeStyle: '#5FDA46', min: -2, max: 24 }, // GREEN
                         { strokeStyle: '#E2AC00', min: 24, max: 30 }, // Yellow
-                        { strokeStyle: '#ff0000', min: 30, max: 100 }, // RED
+                        { strokeStyle: '#ff0000', min: 30, max: 1000 }, // RED
                     ],
                     staticLabels: {
                         font: '8px sans-serif', // Specifies font
-                        labels: [0, 24.4, 30, 50, 70, 100], // Print labels at these values
+                        labels: [0, 24.4, 30, 50, 70, 100, 600, 1000], // Print labels at these values
                         color: '#EFEFEF', // Optional: Label text color
                         fractionDigits: 0, // Optional: Numerical precision. 0=round off.
                     },
