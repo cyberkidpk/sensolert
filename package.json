@@ -2,7 +2,7 @@
   "name": "sensolert-fe",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/cyberkidpk/sensolert",
+  "homepage": "https://github.com/sensolert",
   "dependencies": {
     "@redux-saga/types": "^1.2.1",
     "@reduxjs/toolkit": "^1.8.5",

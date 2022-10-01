@@ -16,7 +16,7 @@ function App() {
                 overflow="auto"
                 color="primary"
             >
-                <BrowserRouter basename="/">
+                <BrowserRouter>
                     <RoutesComponent />
                 </BrowserRouter>
             </Box>
