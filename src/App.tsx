@@ -16,7 +16,7 @@ function App() {
                 overflow="auto"
                 color="primary"
             >
-                <BrowserRouter>
+                <BrowserRouter basename="/sensolert">
                     <RoutesComponent />
                 </BrowserRouter>
             </Box>

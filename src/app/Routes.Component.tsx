@@ -6,7 +6,7 @@ import LayoutDefaultContainer from './layouts/LayoutDefault.Container';
 
 const RoutesComponent = () => {
     return (
-        <Routes basename="/sensolert">
+        <Routes>
             <Route path="/" element={<LayoutDefaultContainer />}>
                 <Route path="login" element={<LoginComponent />} />
                 <Route path="dashboard" element={<DashboardComponent />} />
