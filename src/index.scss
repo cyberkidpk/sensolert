@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: url('assets/images/sensolert-ux-forweb-bg.png') 100% 100%;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+.s-cover-app{
+    // align-items: stretch !important;
+    width:100%;
+
+}
+.outlet-wrapper{
+        justify-content: center;
+        align-items: center;
+        height:80vh;
+        
+
+}
+
+.w200{
+    width:200px;
+}
+.w300 {
+    width:300px !important;
+} 
+.w500 {
+    width:600px !important;
+} 
+.bg-text-input{
+    background: #efefef !important;
+}
+.text-right{
+    text-align: right;
+}
+.pad-right-24{
+    padding-right:24px;
+}
+
+/* BACKGroUND */
+.callToActGradi{
+ background: linear-gradient(180deg, rgba(172,27,2,0.5527253137583159) 11%, rgba(209,6,28,1) 50%, rgba(255,20,0,1) 100%) !important;
+ align-self: start;
+}
+.bottom-border input{
+    background: #efefef;
+
+}
+.half24Mar{
+    margin:12px;
+    border-radius: 20px !important;
+    padding: 3px !important;
+    color:#fff !important;
+    text-shadow: 2cm;
+    text-transform: uppercase !important;
+    font-size: 1rem;
+   text-align: center;
+}
+.alertStatus{
+     border:6px solid rgb(156, 39, 39);
+    background: linear-gradient(180deg, rgba(172,27,2,0.5527253137583159) 11%, rgba(209,6,28,1) 50%, rgba(255,20,0,1) 100%);
+}
+.reachingAlertStatus{
+    border:6px solid rgb(202, 202, 28);
+    background: linear-gradient(180deg, rgba(214, 168, 2, 0.904) 11%, rgb(223, 230, 6) 50%, rgb(234, 255, 0) 100%);
+}
+.okStatus{
+    border:6px solid rgb(29, 188, 69);
+    background: linear-gradient(180deg, rgba(70,212,7,0.6899802157191002) 11%, rgba(6,209,32,0.802025033646271) 52%, rgba(0,255,110,1) 100%);
+}
+.halfHeight24Mar{
+    width: 100%;
+    margin:10px 0;
+    height:230px;
+}
+       
