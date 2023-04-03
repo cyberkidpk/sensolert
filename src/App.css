@@ -1,9 +1,9 @@
 .App {
-    text-align: center;
+    text-align: center ;
 }
 
 .App-logo {
-    height: 40vmin;
+    height:  40vmin;
     pointer-events: none;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .App-link {
-    color: rgb(112, 76, 182);
+    color:  rgb(112, 76, 182);
 }
 
 @keyframes App-logo-float {
