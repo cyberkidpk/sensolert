@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 // import { Counter } from './modules/counter/Counter';
 import './App.css';
 import RoutesComponent from './app/Routes.Component';
-import { Grommet, Box } from 'grommet';
+import { Grommet, Box } from 'grommet'; 
 import customTheme from './app/theme';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
                 color="primary"
             >
                 <BrowserRouter basename="/sensolert">
-                    <RoutesComponent />
+                    <RoutesComponent  />
                 </BrowserRouter>
             </Box>
         </Grommet>
