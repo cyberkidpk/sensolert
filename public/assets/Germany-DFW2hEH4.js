@@ -1,0 +1,1 @@
+import{i as e}from"./site-CWYg7duO.js";import{n as t,t as n}from"./studyData-BWVR9I19.js";var r=e();function i(){return(0,r.jsx)(t,{data:n.germany})}export{i as default};
